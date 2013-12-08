@@ -1,0 +1,63 @@
+2013-12-06 14:11:29.130 CoconutCalendarAdmin[4332:80b] Error loading /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin/Contents/MacOS/IOHIDLib:  dlopen(/System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin/Contents/MacOS/IOHIDLib, 262): Symbol not found: __dealloc
+  Referenced from: /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+  Expected in: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.A.dylib
+ in /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+2013-12-06 14:11:29.131 CoconutCalendarAdmin[4332:80b] Cannot find function pointer IOHIDLibFactory for factory 13AA9C44-6F1B-11D4-907C-0005028F18D5 in CFBundle/CFPlugIn 0x79a77960 </System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin> (bundle, not loaded)
+2013-12-06 14:11:29.133 CoconutCalendarAdmin[4332:80b] Error loading /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin/Contents/MacOS/IOHIDLib:  dlopen(/System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin/Contents/MacOS/IOHIDLib, 262): Symbol not found: __dealloc
+  Referenced from: /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+  Expected in: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.A.dylib
+ in /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+2013-12-06 14:11:29.134 CoconutCalendarAdmin[4332:80b] Cannot find function pointer IOHIDLibFactory for factory 13AA9C44-6F1B-11D4-907C-0005028F18D5 in CFBundle/CFPlugIn 0x79a77960 </System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin> (bundle, not loaded)
+2013-12-06 14:11:29.135 CoconutCalendarAdmin[4332:80b] Error loading /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin/Contents/MacOS/IOHIDLib:  dlopen(/System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin/Contents/MacOS/IOHIDLib, 262): Symbol not found: __dealloc
+  Referenced from: /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+  Expected in: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.A.dylib
+ in /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+2013-12-06 14:11:29.136 CoconutCalendarAdmin[4332:80b] Cannot find function pointer IOHIDLibFactory for factory 13AA9C44-6F1B-11D4-907C-0005028F18D5 in CFBundle/CFPlugIn 0x79a77960 </System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin> (bundle, not loaded)
+2013-12-06 14:11:29.137 CoconutCalendarAdmin[4332:80b] Error loading /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin/Contents/MacOS/IOHIDLib:  dlopen(/System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin/Contents/MacOS/IOHIDLib, 262): Symbol not found: __dealloc
+  Referenced from: /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+  Expected in: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.A.dylib
+ in /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+2013-12-06 14:11:29.137 CoconutCalendarAdmin[4332:80b] Cannot find function pointer IOHIDLibFactory for factory 13AA9C44-6F1B-11D4-907C-0005028F18D5 in CFBundle/CFPlugIn 0x79a77960 </System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin> (bundle, not loaded)
+2013-12-06 14:11:29.139 CoconutCalendarAdmin[4332:80b] Error loading /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin/Contents/MacOS/IOHIDLib:  dlopen(/System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin/Contents/MacOS/IOHIDLib, 262): Symbol not found: __dealloc
+  Referenced from: /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+  Expected in: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.A.dylib
+ in /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+2013-12-06 14:11:29.139 CoconutCalendarAdmin[4332:80b] Cannot find function pointer IOHIDLibFactory for factory 13AA9C44-6F1B-11D4-907C-0005028F18D5 in CFBundle/CFPlugIn 0x79a77960 </System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin> (bundle, not loaded)
+2013-12-06 14:11:29.141 CoconutCalendarAdmin[4332:80b] Error loading /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin/Contents/MacOS/IOHIDLib:  dlopen(/System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin/Contents/MacOS/IOHIDLib, 262): Symbol not found: __dealloc
+  Referenced from: /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+  Expected in: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.A.dylib
+ in /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+2013-12-06 14:11:29.141 CoconutCalendarAdmin[4332:80b] Cannot find function pointer IOHIDLibFactory for factory 13AA9C44-6F1B-11D4-907C-0005028F18D5 in CFBundle/CFPlugIn 0x79a77960 </System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin> (bundle, not loaded)
+2013-12-06 14:11:29.143 CoconutCalendarAdmin[4332:80b] Error loading /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin/Contents/MacOS/IOHIDLib:  dlopen(/System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin/Contents/MacOS/IOHIDLib, 262): Symbol not found: __dealloc
+  Referenced from: /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+  Expected in: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.A.dylib
+ in /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+2013-12-06 14:11:29.143 CoconutCalendarAdmin[4332:80b] Cannot find function pointer IOHIDLibFactory for factory 13AA9C44-6F1B-11D4-907C-0005028F18D5 in CFBundle/CFPlugIn 0x79a77960 </System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin> (bundle, not loaded)
+2013-12-06 14:11:29.145 CoconutCalendarAdmin[4332:80b] Error loading /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin/Contents/MacOS/IOHIDLib:  dlopen(/System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin/Contents/MacOS/IOHIDLib, 262): Symbol not found: __dealloc
+  Referenced from: /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+  Expected in: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.A.dylib
+ in /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+2013-12-06 14:11:29.145 CoconutCalendarAdmin[4332:80b] Cannot find function pointer IOHIDLibFactory for factory 13AA9C44-6F1B-11D4-907C-0005028F18D5 in CFBundle/CFPlugIn 0x79a77960 </System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin> (bundle, not loaded)
+2013-12-06 14:11:31.697 CoconutCalendarAdmin[4332:5503] Location : https://mobile.demo.coconutcalendar.com/api/1.1/locations.json?access_token=e484196ed3214e886fd0cbae1a342617866f34eb
+2013-12-06 14:11:33.915 CoconutCalendarAdmin[4332:5503] Clients : https://mobile.demo.coconutcalendar.com/api/1.1/clients.json?access_token=e484196ed3214e886fd0cbae1a342617866f34eb
+2013-12-06 14:11:34.210 CoconutCalendarAdmin[4332:5503] Appointment : http://mobile.demo.coconutcalendar.com/api/1.1/appointments.json?access_token=e484196ed3214e886fd0cbae1a342617866f34eb
+2013-12-06 14:11:34.979 CoconutCalendarAdmin[4332:80b] System.Collections.Generic.List`1[CoconutCalendarAdmin.Appointment]
+2013-12-06 14:11:37.773 CoconutCalendarAdmin[4332:80b] 12/3/2013 2:11:35 PM
+2013-12-06 14:11:38.620 CoconutCalendarAdmin[4332:80b] 12/4/2013 2:11:35 PM
+2013-12-06 14:11:39.513 CoconutCalendarAdmin[4332:80b] 12/5/2013 2:11:35 PM
+2013-12-06 14:11:40.228 CoconutCalendarAdmin[4332:80b] 12/6/2013 2:11:35 PM
+2013-12-06 14:11:40.780 CoconutCalendarAdmin[4332:80b] 12/7/2013 2:11:35 PM
+2013-12-06 14:11:41.266 CoconutCalendarAdmin[4332:80b] 12/8/2013 2:11:35 PM
+2013-12-06 14:11:48.404 CoconutCalendarAdmin[4332:80b] 12/2/2013 2:11:35 PM
+2013-12-06 14:11:48.831 CoconutCalendarAdmin[4332:80b] 12/3/2013 2:11:35 PM
+2013-12-06 14:11:49.164 CoconutCalendarAdmin[4332:80b] 12/4/2013 2:11:35 PM
+2013-12-06 14:11:49.881 CoconutCalendarAdmin[4332:80b] 12/5/2013 2:11:35 PM
+2013-12-06 14:11:50.381 CoconutCalendarAdmin[4332:80b] 12/6/2013 2:11:35 PM
+2013-12-06 14:11:50.998 CoconutCalendarAdmin[4332:80b] 12/7/2013 2:11:35 PM
+2013-12-06 14:11:51.431 CoconutCalendarAdmin[4332:80b] 12/8/2013 2:11:35 PM
+2013-12-06 14:11:52.331 CoconutCalendarAdmin[4332:80b] 12/7/2013 2:11:35 PM
+2013-12-06 14:11:52.628 CoconutCalendarAdmin[4332:80b] 12/6/2013 2:11:35 PM
+2013-12-06 14:11:52.931 CoconutCalendarAdmin[4332:80b] 12/5/2013 2:11:35 PM
+2013-12-06 14:11:53.482 CoconutCalendarAdmin[4332:80b] 12/4/2013 2:11:35 PM
+2013-12-06 14:11:53.799 CoconutCalendarAdmin[4332:80b] 12/3/2013 2:11:35 PM
+2013-12-06 14:11:54.082 CoconutCalendarAdmin[4332:80b] 12/2/2013 2:11:35 PM

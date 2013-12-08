@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoconutCalendarAdmin", "CoconutCalendarAdmin\CoconutCalendarAdmin.csproj", "{1AC2E5A1-C845-4349-9133-D107963D4885}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{37949D1F-C99C-4CAD-A3E0-E38E556F5C7E}"
+	ProjectSection(SolutionItems) = preProject
+		CoconutCalendarAdmin.sln = CoconutCalendarAdmin.sln
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AC2E5A1-C845-4349-9133-D107963D4885}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{1AC2E5A1-C845-4349-9133-D107963D4885}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{1AC2E5A1-C845-4349-9133-D107963D4885}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{1AC2E5A1-C845-4349-9133-D107963D4885}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{1AC2E5A1-C845-4349-9133-D107963D4885}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{1AC2E5A1-C845-4349-9133-D107963D4885}.Debug|iPhone.Build.0 = Debug|iPhone
+		{1AC2E5A1-C845-4349-9133-D107963D4885}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{1AC2E5A1-C845-4349-9133-D107963D4885}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{1AC2E5A1-C845-4349-9133-D107963D4885}.Release|iPhone.ActiveCfg = Release|iPhone
+		{1AC2E5A1-C845-4349-9133-D107963D4885}.Release|iPhone.Build.0 = Release|iPhone
+		{1AC2E5A1-C845-4349-9133-D107963D4885}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{1AC2E5A1-C845-4349-9133-D107963D4885}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = CoconutCalendarAdmin\CoconutCalendarAdmin.csproj
+	EndGlobalSection
+EndGlobal

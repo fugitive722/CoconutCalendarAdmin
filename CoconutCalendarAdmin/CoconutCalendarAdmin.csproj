@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1AC2E5A1-C845-4349-9133-D107963D4885}</ProjectGuid>
+    <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CoconutCalendarAdmin</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>CoconutCalendarAdmin</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchLink>None</MtouchLink>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchDebug>true</MtouchDebug>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <ConsolePause>false</ConsolePause>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchDebug>true</MtouchDebug>
+    <CodesignKey>iPhone Developer</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <BuildIpa>true</BuildIpa>
+    <IpaPackageName>
+    </IpaPackageName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Ad-Hoc</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <BuildIpa>true</BuildIpa>
+    <CodesignProvision>98E040B1-7247-40A0-AB0E-3AF1C27E91E4</CodesignProvision>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <IpaPackageName>
+    </IpaPackageName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\AppStore</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <ConsolePause>false</ConsolePause>
+    <CodesignProvision>Automatic:AppStore</CodesignProvision>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="MonoTouch.Dialog-1" />
+    <Reference Include="System.Json" />
+    <Reference Include="MBProgressHUD">
+      <HintPath>..\Components\mbprogresshud-0.8\lib\ios\MBProgressHUD.dll</HintPath>
+    </Reference>
+    <Reference Include="monotouch" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Resources\images\" />
+    <Folder Include="Services\" />
+    <Folder Include="Models\" />
+    <Folder Include="DataSources\" />
+    <Folder Include="Elements\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="Controllers\CoconutLoginViewController.cs" />
+    <Compile Include="Controllers\CoconutScheduleViewController.cs" />
+    <Compile Include="Controllers\CoconutScheduleViewController.designer.cs">
+      <DependentUpon>CoconutScheduleViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\CoconutClientViewController.cs" />
+    <Compile Include="Controllers\CoconutTapViewController.cs" />
+    <Compile Include="Controllers\CoconutPickeDateWeekViewController.cs" />
+    <Compile Include="Controllers\CoconutPickeDateWeekViewController.designer.cs">
+      <DependentUpon>CoconutPickeDateWeekViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Services\HttpClient.cs" />
+    <Compile Include="Models\Location.cs" />
+    <Compile Include="Models\Staff.cs" />
+    <Compile Include="Models\Services.cs" />
+    <Compile Include="Models\CoconutCalendarScheduleLocationPickerModel.cs" />
+    <Compile Include="Controllers\CoconutScheduleAddViewController.cs" />
+    <Compile Include="Models\Client.cs" />
+    <Compile Include="Elements\SimpleMultilineEntryElement.cs" />
+    <Compile Include="Controllers\CoconutClientAddViewController.cs" />
+    <Compile Include="Models\Appointment.cs" />
+    <Compile Include="Models\ServiceNameTranslation.cs" />
+    <Compile Include="Models\ServiceDesciptionTranslation.cs" />
+    <Compile Include="Controllers\CoconutCalendarTableCell.cs" />
+    <Compile Include="Controllers\CoconutCalendarTableCell.designer.cs">
+      <DependentUpon>CoconutCalendarTableCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSources\CoconutCalendarAppointmentSource.cs" />
+    <Compile Include="Controllers\CoconutScheduleAddMenu.cs" />
+    <Compile Include="CalendarMonthView.cs" />
+    <Compile Include="CalendarMonthViewController.cs" />
+    <Compile Include="CoconutPickDateMonthViewController.cs" />
+    <Compile Include="CoconutPickDateMonthViewController.designer.cs">
+      <DependentUpon>CoconutPickDateMonthViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\CoconutCalendarAbsebse.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <InterfaceDefinition Include="Controllers\CoconutScheduleViewController.xib" />
+    <InterfaceDefinition Include="Controllers\CoconutPickeDateWeekViewController.xib" />
+    <InterfaceDefinition Include="Controllers\CoconutCalendarTableCell.xib" />
+    <InterfaceDefinition Include="CoconutPickDateMonthViewController.xib" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="mbprogresshud">
+      <Version>0.8</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\images\CalendarPreviousMonth.png" />
+    <BundleResource Include="Resources\images\CalendarPreviousMonth%402x.png" />
+    <BundleResource Include="Resources\images\CalendarRow.png" />
+    <BundleResource Include="Resources\images\CalendarRow%402x.png" />
+    <BundleResource Include="Resources\images\CalendarRowBottom.png" />
+    <BundleResource Include="Resources\images\CalendarRowBottom%402x.png" />
+    <BundleResource Include="Resources\images\CalendarSelectedDate.png" />
+    <BundleResource Include="Resources\images\CalendarSelectedDate%402x.png" />
+    <BundleResource Include="Resources\images\CalendarTodaysDate.png" />
+    <BundleResource Include="Resources\images\CalendarTodaysDate%402x.png" />
+    <BundleResource Include="Resources\Default-568h%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\calendar\datecell.png" />
+    <Content Include="images\calendar\datecellmarked.png" />
+    <Content Include="images\calendar\datecellselected.png" />
+    <Content Include="images\calendar\leftarrow.png" />
+    <Content Include="images\calendar\rightarrow.png" />
+    <Content Include="images\calendar\shadow.png" />
+    <Content Include="images\calendar\today.png" />
+    <Content Include="images\calendar\todayselected.png" />
+    <Content Include="images\calendar\topbar.png" />
+  </ItemGroup>
+</Project>
