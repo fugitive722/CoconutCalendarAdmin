@@ -18,6 +18,7 @@ namespace CoconutCalendarAdmin
 		Boolean _isSeleced = false;
 		int selectedIndex = -1;
 
+
 		DateTime[] _dates;
 		public CoconutPickeDateWeekViewController (UINavigationController n) : base ("CoconutPickeDateWeekViewController", null)
 		{
@@ -393,6 +394,7 @@ namespace CoconutCalendarAdmin
 		}
 
 		private void setAppointmentTableSource (DateTime d){
+
 			var appointments = dateAppointment (d);
 
 			var source = new CoconutCalendarAppointmentSource (appointments,_navi,SelectedTime.ToString(),CurrentQuery.sharedInstance().Location,CurrentQuery.sharedInstance().Staff);

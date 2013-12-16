@@ -13,7 +13,7 @@ namespace CoconutCalendarAdmin
 		public event EventHandler LocationSelected;
 		public event EventHandler StaffSelected;
 
-
+		HttpClient webClient = new HttpClient();
 		Boolean isLocation = false;
 
 		public CoconutCalendarScheduleLocationPickerModel (Boolean location)
@@ -24,7 +24,7 @@ namespace CoconutCalendarAdmin
 		public override int GetRowsInComponent (UIPickerView picker, int component)
 		{
 			if(isLocation){
-				return HttpClient.LocationList.Count;
+				return webClient.getVendor(" ")["location"].Count;
 			}else{
 				return HttpClient.StaffList.Count;
 			}
@@ -39,7 +39,7 @@ namespace CoconutCalendarAdmin
 		public override string GetTitle (UIPickerView picker, int row, int component)
 		{
 			if (isLocation) {
-				return HttpClient.LocationList [row].name;
+				return webClient.getVendor(" ")["location"][row];
 			} else {
 				return HttpClient.StaffList [row].first_name + " " + HttpClient.StaffList [row].last_name;
 			}
@@ -63,7 +63,7 @@ namespace CoconutCalendarAdmin
 		{
 			if (isLocation){
 
-				SelectedLocation = HttpClient.LocationList[row].name;
+				SelectedLocation = webClient.getVendor(" ")["location"][row];
 				OnLocationSelected();
 			}else{
 

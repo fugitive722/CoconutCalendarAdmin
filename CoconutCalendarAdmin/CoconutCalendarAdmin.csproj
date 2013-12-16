@@ -149,6 +149,7 @@
       <DependentUpon>CoconutPickDateMonthViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="Controllers\CoconutCalendarAbsebse.cs" />
+    <Compile Include="Controllers\CoconutCalendarScheduleAddNewClient.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

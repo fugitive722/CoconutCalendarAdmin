@@ -13,7 +13,7 @@ namespace CoconutCalendarAdmin
 	public partial class CoconutScheduleAddViewController : DialogViewController
 	{
 
-		RadioGroup _clientRadioGroup;
+		StringElement _client;
 		DateTimeElement _dateStart;
 		DateTimeElement _dateEnd;
 		CoconutLocationRadioGroup _locationRadioGroup;
@@ -52,35 +52,29 @@ namespace CoconutCalendarAdmin
 
 
 			// 1. pick up client
-			//var clientS = new Section ();
-			_clientRadioGroup = new RadioGroup (-1);
-			var clientRoot = new RootElement ("Client", _clientRadioGroup);
 
-			var clientNameS = new Section ();
-		
+			_client = new StringElement ("Client", () => {
+				var addClient =new CoconutCalendarScheduleAddNewClient();
+				addClient.finishedSelect += (object sender, EventArgs e) => {
 
-			var addNew = new StyledStringElement ("Add New Client", ()=>{
-				var addNewClient = new CoconutClientAddViewController(null);
-				addNewClient.Pushing = true;
-				this.NavigationController.PushViewController(addNewClient,true);
+					if(addClient.selectedClient == null){
+						_client.Value = "Click to pick ";
+					}else{
+						_client.Value = addClient.selectedClient.firstName +" "+ addClient.selectedClient.lastName;
+						this.Root.Reload(_client,UITableViewRowAnimation.None);
 
-				addNewClient.ClientCreated += (object sender, EventArgs e) => {
-					while(clientNameS.Count > 1){
-						clientNameS.Remove(1);
-					}
-					foreach (var i in HttpClient.ClientList){
-						clientNameS.Add (new RadioElement (i.firstName +", "+i.lastName));
 					}
 				};
-			});
-			clientNameS.Add (addNew);
+				this.NavigationController.PushViewController(addClient,true);
 
-			foreach (var i in HttpClient.ClientList){
-				clientNameS.Add (new RadioElement (i.firstName +", "+i.lastName));
-			}
-			clientRoot.Add (clientNameS);
-			//clientS.Add (clientRoot);
-			GlobalS.Add (clientRoot);
+			});
+
+			_client.Value = "Click to pick ";
+			GlobalS.Add (_client);
+
+
+
+
 
 			// 2. Pick up date start / end
 			//var dateStartS = new Section ();
@@ -297,7 +291,7 @@ namespace CoconutCalendarAdmin
 			                          "Location: {3} \n Service: {4}\n Staff: {5}\n" +
 			                          "Walkin : {6} \n Notify Satff : {7} \n Notify Client: {8}\n" +
 			                          "Note: {9}\n",
-			                          HttpClient.ClientList[_clientRadioGroup.Selected].firstName,
+				//HttpClient.ClientList[_clientRadioGroup.Selected].firstName,
 			                          _dateStart.Value.ToString(),
 			                          _dateEnd.Value.ToString(),
 			                          HttpClient.LocationList[_locationRadioGroup.Selected].name,
@@ -318,7 +312,7 @@ namespace CoconutCalendarAdmin
 			for ( int i=0; i<HttpClient.ClientList.Count; i++){
 
 				if (client == HttpClient.ClientList[i].id) {
-					_clientRadioGroup.Selected = i;
+					//_clientRadioGroup.Selected = i;
 				}
 
 			}

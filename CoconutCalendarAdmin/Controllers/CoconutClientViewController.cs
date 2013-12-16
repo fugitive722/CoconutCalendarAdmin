@@ -24,7 +24,6 @@ namespace CoconutCalendarAdmin
 
 			Root = new RootElement ("Coconut Client List") {
 			};
-			//var Section = new Section ();
 
 
 			var index = '0';

@@ -31,7 +31,7 @@ namespace CoconutCalendarAdmin
 					hud.Show(animated:true);
 					Task.Factory.StartNew(()=>{
 						var webReq = new HttpClient();
-						webReq.getLocations("test");
+						//webReq.getLocations("test");
 						webReq.getClients("test");
 						webReq.getAppointments("test");
 						webReq.getStaffs("test");
